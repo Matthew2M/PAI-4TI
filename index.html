@@ -1,0 +1,31 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body>
+<div id="box">
+<div id="srodek">
+    <div id="register">
+        <div class="line"></div>
+        <span id="test">Register</span>
+        <div class="line"></div>
+    </div>
+    
+    <p id="test2">Create your account. It's free and only takes a minute.</p>
+    <form onsubmit="return false" method="post">
+        <input type="text" id="firstname" class="inputtext" placeholder="First Name"><input type="text" id="lastname"class="inputtext" placeholder="Last Name"><br>
+        <input type="text" id="email" class="inputtext" placeholder="Email"><br>
+        <input type="password" id="password" class="inputtext" placeholder="Password"><br>
+        <input type="password" id="confirmpassword" class="inputtext" placeholder="Confirm Password"><br>
+        <div id="test3">
+        <label><input type="checkbox" id="checkbox"><a id="test4">I accept the <a target="_blank" class="external" href="https://policies.google.com/terms?hl=en-US">Terms of Use</a> & <a target="_blank" class="external" href="https://policies.google.com/privacy?hl=en-US">Privacy Policy</a></a></label><br>
+        <hr id="checkboxline" style="background-color: red; height: 1px; border: 0;display: none;">
+        </div>
+        <input type="submit" onclick="validateForm()" id="button" value="Register Now" >
+    </form>
+</div>
+</div>
+</body>    
+</html>
